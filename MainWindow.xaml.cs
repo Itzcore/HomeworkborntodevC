@@ -24,11 +24,11 @@ namespace Buysomething
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             double i = Convert.ToDouble(income.Text);
-            double o = Convert.ToDouble(outcome.Text);
+            double k = Convert.ToDouble(outcome.Text);
             double h = Convert.ToDouble(hope.Text);
 
             double u = (i - o);
-            double re = (h / u);
+            double re = (h / k);
             result.Text = re.ToString();
 
         }
